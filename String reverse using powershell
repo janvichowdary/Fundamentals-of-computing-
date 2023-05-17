@@ -1,0 +1,5 @@
+PS C:\> $string = 'Hello World'
+
+PS C:\> $string[-1..-$string.Length] -join ''
+
+dlroW olleH
